@@ -4,11 +4,16 @@ import "./App.css"
 
 function App() {
   return (
-    <div className="app">
-      <img className="logo" src={react} alt="" />
-      <Card />
+    <div className="container">
+      <div className="logo-div">
+        <img className="logo" src={react} alt="" />
+      </div>
+      <div className="cards-container">
+        <h5 className="cards-title">Languages</h5>
+        <Card />
+      </div>
     </div>
-  );
+  )
 }
 
 export default App;
